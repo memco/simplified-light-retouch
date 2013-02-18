@@ -106,6 +106,7 @@ a, .channel {
 a:hover, .channel:hover {
 	color: #4fa0bf;
 	border-color: #4fa0bf;
+	cursor : pointer;
 }
 
 /* Topic Bar */
