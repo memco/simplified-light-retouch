@@ -96,14 +96,14 @@ body[dir=rtl] .time {
 
 /* Links */
 
-a {
+a, .channel {
 	color: #3e7c92;
 	border-color: #3e7c92;
 	text-decoration: none;
 	border-bottom: dotted 1px;
 }
 
-a:hover {
+a:hover, .channel:hover {
 	color: #4fa0bf;
 	border-color: #4fa0bf;
 }
