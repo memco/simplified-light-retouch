@@ -17,12 +17,10 @@ Textual.viewFinishedReload = function()
 }
 
 function addChannelSingleCLickListener() {
-	var channelLinks = document.getElementsByClassName("channel");
-	for(i=0,len=channelLinks.length;i<len;i++) {
-		channelLinks[i].addEventListener('click',Textual.channelNameDoubleClicked);
-	}
-}
-
-Textual.newMessagePostedToView = function() {
-	addChannelSingleCLickListener();
+	// Allow opening channels with a single click
+	document.addEventListener('click',function(){
+		if(event.target.className == "channel") {
+			Textual.channelNameDoubleClicked();
+		}
+	});
 }
