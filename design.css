@@ -130,7 +130,8 @@ a:hover, .channel:hover {
 	border : 0 none;
 }
 
-#topic_bar a:hover {
+#topic_bar a:hover,
+#topic_bar span.channel:hover {
 	color : #68788b;
 	border-bottom: 1px dotted #68788b;
 }
