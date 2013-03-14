@@ -73,26 +73,15 @@ body div#loading_screen {
 body[dir=ltr] .time {
 	color: #aaa;
 	white-space: nowrap;
-	/*float : right;*/
-	/*margin-left : .25em;*/
-	/*display: none;*/
 	display: inline-block;
 }
 
-/*body .line:hover .time {
-	display: inline-block;
-}*/
 
 body[dir=rtl] .time {
 	color: #aaa;
 	white-space: nowrap;
 	padding-left: 0.4em;
 }
-
-/*body .message {
-	display: inline-block;
-	float : left;
-}*/
 
 /* Links */
 
@@ -120,16 +109,6 @@ a:hover, .channel:hover {
 	position: fixed;
 	padding: 2px 0.5em 3px;
 	-webkit-transition: opacity 0.8s linear;
-
-/*
-	color: #FFFFFF;
-	border-bottom: 1px solid #61778F;
-	text-shadow: 1px 1px rgba(83, 86, 94, 0.7);
-	background: -webkit-linear-gradient(top, #A2B0D0 0%, #7385AD 100%);
-	box-shadow: 0 1px 5px #777;
-*/
-	/*box-shadow: 0 1px 5px #a5a5a5;
-	box-shadow: 0 1px 5px #fff;*/
 	background: #e9eef3;
 	border-bottom: 1px solid #c6cbd0;
 	color: #000;
@@ -149,9 +128,6 @@ a:hover, .channel:hover {
 #topic_bar span.channel {
 	color: #5a6673;
 	border : 0 none;
-	/*border-color: #303a44;*/
-	/*text-shadow: 1px 1px rgba(83, 86, 94, 0.7);*/
-	/*font-weight: bold;*/
 }
 
 #topic_bar a:hover {
